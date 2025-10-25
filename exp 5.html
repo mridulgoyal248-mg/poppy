@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <H1 align="center">Student Registration Form</H1>
+    <hr>
+    <form method="post">
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter your full name" required>
+        <br><br>
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter valid email address" required>
+        <br><br>
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter password" required>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" required>Male
+        <input type="radio" name="gender" value="female" required>Female
+        <input type="radio" name="gender" value="others" required>Others
+        <br><br>
+        <label>Course:</label>
+        <select name="course" required>
+            <option value="Select Course">--Select Course--</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BBA">BBA</option>
+            <option value="BCA">BCA</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="MBA">MBA</option>
+        </select><br><br>
+        <label>Contact No.:</label>
+        <input type="tel" name="contact" placeholder="Enter phone number" required>
+        <br><br>
+        <label>Address:</label>
+        <textarea name="address" placeholder="Enter your address" rows="4" cols="40" required></textarea>
+        <br><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+        <br><br>
+        <hr>
+    </form>
+    <p align="center">&copy:2025 Student Registration Form</p>
+    <h4> Name -Mridul Goyal <br>
+        Admission Number - 2025B01010723
+    </h4>
+</body>
+
+</html>
